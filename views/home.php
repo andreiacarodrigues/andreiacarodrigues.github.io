@@ -20,20 +20,29 @@
 <!-- About -->
 <div id="about" class="panel">
   <div class="container">
-      <div class="col-md-8">
+
           <div class="row">
-              <div class="section-title">
-                  <h2>about</h2>
+              <div class="section-title text-center">
+                  <h2>[about]</h2>
               </div>
           </div>
+      <div class="col-md-8">
           <div class="row">
               <div class="about-text">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum. </p>
+                  <p>My name is Andreia Rodrigues, original from Coimbra, Portugal. Currently I'm 21 years old and I'm attending the 4th year
+                      of the Master in Informatics and Computing Engineering at the Faculty of Engineering of the University of Porto
+                      where I currently hold an average grade of 16 in 20.</p>
+                  <p>Though the degree I've learned about many different fields of computer science, programming languages,
+                      software development and management. The ones that I like the most are API development, mobile development,
+                     frontend web development and computer graphics. </p>
+                  <p>Previously I studied at the Escola EB 2,3/S of Chamusca where I graduated from highschool with an average grade of 17 in 20.</p>
+                  <p>I'm fluent in portuguese and english.</p>
+                  <br>
+                  <p>My favorite hobbies include going to the cinema, watching anime and playing team-oriented videogames like League of Legends.</p>
               </div>
           </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 ">
           <div id="aboutImgContainer">
               <div id="aboutImg" class="img-responsive"></div>
           </div>
@@ -46,10 +55,9 @@
 <!-- Services Section -->
 <div id="services" class="panel">
   <div class="container">
-    <div class="section-title">
-      <h2>knowledge, skills and abilities</h2>
+    <div class="section-title text-center">
+      <h2>[knowledge, skills & abilities]</h2>
     </div>
-
       <div class="space"></div>
       <div id="skills_list">
     <div class="row">
@@ -79,8 +87,6 @@
         <div class="col-md-6 col-sm-12">
             <div class="row">
             <div class="service">
-
-
                         <h3> <i class="fa fa-cogs"></i> Operating Systems</h3>
                         <ul>
                             <li>Microsoft Windows</li>
@@ -92,14 +98,13 @@
             <div class="space"></div>
             <div class="row">
             <div class="service">
-
-
                     <h3> <i class="fa fa-file-image-o"></i> Other Applications</h3>
                     <ul>
                         <li>Microsoft Office (Word, Excel, PowerPoint, Publisher)</li>
                         <li>Enterprise Architect</li>
                         <li>Maxima</li>
-                        <li>Photoshop (basic knowledge) </li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Illustrator</li>
                     </ul>
                 </div>
             </div>
@@ -111,7 +116,6 @@
           <div class="col-md-6 col-sm-12">
               <div class="row">
               <div class="service">
-
                       <h3> <i class="fa fa-desktop"></i> Software Development Environments</h3>
                       <ul>
                           <li>Microsoft Visual Studio</li>
@@ -128,10 +132,7 @@
 
           <div class="col-md-6 col-sm-12">
               <div class="row">
-
               <div class="service">
-
-
                           <h3> <i class="fa fa-github"></i> Other Technologies</h3>
                           <ul>
                               <li>WebGL</li>
@@ -142,8 +143,6 @@
               <div class="space"></div>
               <div class="row">
               <div class="service">
-
-
                       <h3> <i class="fa fa-server"></i> Database Management Systems</h3>
                       <ul>
                           <li>SQLite</li>
@@ -155,15 +154,9 @@
       </div>
       </div>
       </div>
-
-    <a class="page-scroll"></a>
 </div>
 
-
-
-
-<!-- About -->
-<div id="about">
+<!--<div id="university_projects">
     <div class="container">
         <div class="col-md-8">
             <div class="row">
@@ -185,16 +178,14 @@
         </div>
     </div>
 </div>
-
-
+-->
 
 <!-- Portfolio Section -->
-<!--<div id="works">
+<div id="projects">
   <div class="container">
     <div class="section-title text-center center">
-      <h2>Our Portfolio</h2>
-      <hr>
-      <div class="clearfix"></div>
+      <h2>[projects]</h2>
+        <br><br>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
     </div>
     <div class="categories">
@@ -295,7 +286,7 @@
       </div>
     </div>
   </div>
-</div>-->
+</div>
 <!-- Team Section -->
 <!--<div id="team" class="text-center">
   <div class="container">

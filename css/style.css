@@ -1,6 +1,7 @@
 @font-face {
 	font-family: titleFonts;
-	src: url(../fonts/fonts/CaviarDreams.ttf);
+	src: url(../fonts/fonts/Shorelines_Script_Bold.otf);
+	/*src: url(../fonts/fonts/CaviarDreams.ttf);*/
 	/*src: url(../fonts/fonts/manaspc.ttf);*/
 }
 
@@ -62,7 +63,6 @@ h3 {
 	font-size: 16px;
 	font-weight: 700;
 	color: #555;
-	font-family: titleFonts;
 }
 h4 {
 	font-weight: 500;
@@ -259,7 +259,7 @@ hr {
 #about, #services {
 	width: 100%;
 	min-height: 100%;
-	padding: 80px 0;
+	padding: 100px 0;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -277,10 +277,11 @@ hr {
 	color:black;
 }
 #about p {
-	font-size:15px;
+	font-size:15.5px;
 	margin-top: 20px;
 	margin-bottom: 10px;
 	text-align: justify;
+    color: #414141;
 }
 /* ANIMATIONS */
 /*.Object, .ObjectContainer a {
@@ -322,25 +323,22 @@ hr {
 }
 
 #aboutImgContainer {
-    width: 250px;
-    height: 250px;
     display: block;
     position: relative;
     overflow:hidden;
-    margin-left:auto;
-    margin-right:auto;
-
+    margin-left:25%;
+    margin-right:25%;
+    margin-top:10%;
+    margin-bottom:10%;
+    height: 100%;
+    width: 100%;
 }
 #aboutImgContainer:hover #aboutImg {
-    width: 100%;
-    height: 100%;
     border-radius: 0px;
 }
 #aboutImgContainer #aboutImg {
-
-    display: block;
-    height: 100%;
-    width: 100%;
+    width: 250px;
+    height: 250px;
     border-radius: 125px;
     background-image: url(../img/intro-bg.jpg);
     background-position: center center;
@@ -367,7 +365,7 @@ hr {
 #services h2 {
 	color: #f6f6f6;
     font-size: 50px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 #services h3 {
 	font-size: 20px;
@@ -388,13 +386,7 @@ hr {
 
 #services #skills_list{
 	background-color: rgba(29, 29, 29, 0.22);
-
 }
-
-/*
-#services .col-md-6 #service_part2{
-	min-height: 380px;
-}*/
 
 #services li {
     margin-bottom: 3px;
@@ -409,10 +401,34 @@ hr {
     padding-right: 10px;
     color: #d5a0e7;
 }
+
 /* Gallery Section */
-#works {
-	padding: 120px 0;
-	background: #f6f6f6;
+
+#projects {
+    width: 100%;
+    min-height: 100%;
+    padding: 100px 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+}
+#projects {
+    background: #f6f6f6;
+}
+#projects H2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    color:black;
+}
+#projects p {
+    font-size:15.5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #414141;
 }
 .categories {
 	padding-bottom: 30px;
@@ -448,7 +464,6 @@ ol.type li a:hover {
 	z-index: 1
 }
 .isotope, .isotope .isotope-item {
-	/* change duration value to whatever you like */
 	-webkit-transition-duration: 0.8s;
 	-moz-transition-duration: 0.8s;
 	transition-duration: 0.8s;
@@ -538,7 +553,7 @@ ol.type li a:hover {
 	color: #F4D03F;
 }
 /* Team Section */
-#team {
+/*#team {
 	padding: 140px 0;
 	background: #e6e6e6;
 }
@@ -556,9 +571,9 @@ img.img-thumbnail.team-img {
 #team .thumbnail .caption {
 	padding: 9px;
 	color: #777;
-}
+}*/
 /* Testimonials Section */
-#testimonials {
+/*#testimonials {
 	background: url(../img/testimonials-bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
@@ -585,9 +600,9 @@ img.img-thumbnail.team-img {
 	border-top: 1px solid rgba(255,255,255,0.3);
 	padding: 20px 0;
 	margin-top: 10px;
-}
+}*/
 /* Contact Section */
-#contact {
+/*#contact {
 	padding: 120px 0 40px 0;
 	background: #f6f6f6;
 }
@@ -682,7 +697,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #contact .social i.fa:hover {
 	color: #a13e1a;
-}
+}*/
 /* Footer Section*/
 #footer {
 	background: #333;
@@ -732,7 +747,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
         font-size: 1em;
     }
 
-	#about, #services{
+	#about, #services, #education{
 		padding: 40px 0;
 	}
 
@@ -780,6 +795,4 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     width:50px;
     margin-top: 80px;
 }
-
-/* --- Swipe left */
 
