@@ -13,14 +13,12 @@
                   <img id="downArrow" src="./img/down.png"/>
               </div>
           </div>
-      <a class="page-scroll"></a>
       </div>
 </div>
 
 <!-- About -->
-<div id="about" class="panel">
+<div id="about">
   <div class="container">
-
           <div class="row">
               <div class="section-title text-center">
                   <h2>[about]</h2>
@@ -42,9 +40,11 @@
               </div>
           </div>
       </div>
-      <div class="col-md-4 ">
+      <div class="col-md-4">
+          <div class="row">
           <div id="aboutImgContainer">
               <div id="aboutImg" class="img-responsive"></div>
+          </div>
           </div>
       </div>
     </div>
@@ -53,12 +53,14 @@
 
 
 <!-- Services Section -->
-<div id="services" class="panel">
+<div id="services">
   <div class="container">
+      <div class="row">
     <div class="section-title text-center">
       <h2>[knowledge, skills & abilities]</h2>
     </div>
-      <div class="space"></div>
+          <div class="space"></div>
+      </div>
       <div id="skills_list">
     <div class="row">
         <div class="col-md-6 col-sm-12">
@@ -154,6 +156,7 @@
       </div>
       </div>
       </div>
+  </div>
 </div>
 
 <!--<div id="university_projects">
@@ -185,108 +188,172 @@
   <div class="container">
     <div class="section-title text-center center">
       <h2>[projects]</h2>
-        <br><br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
     </div>
-    <div class="categories">
-      <ul class="cat">
-        <li>
-          <ol class="type">
-            <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".lorem">Web Design</a></li>
-            <li><a href="#" data-filter=".consectetur">Web Development</a></li>
-            <li><a href="#" data-filter=".dapibus">Branding</a></li>
-          </ol>
-        </li>
-      </ul>
-      <div class="clearfix"></div>
-    </div>
-    <div class="row">
+    <br>
       <div class="portfolio-items">
-        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="container">
+          <div class="row">
+        <div class="col-md-3 col-lg-3 lorem">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/01.jpg" title="Project description" rel="prettyPhoto">
+            <div class="hover-bg">
+                <a  href="#portfolioModal1" data-toggle="modal" title="lol">
               <div class="hover-text">
-                <h4>Project Title</h4>
-                <p>Web Design</p>
+                <h4>PROG</h4>
               </div>
-              <img src="img/portfolio/01.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/portfolio/01.jpg" class="img-responsive" alt="Programação"> </a>
+            </div>
           </div>
         </div>
-        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 consectetur">
+        <div class="col-md-3 col-lg-3 consectetur">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/02.jpg" title="Project description" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/02.jpg" title="Project description">
               <div class="hover-text">
-                <h4>Project Title</h4>
-                <p>Web Development</p>
+                <h4>AEDA</h4>
               </div>
               <img src="img/portfolio/02.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+        <div class="col-md-3 col-lg-3 lorem">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/03.jpg" title="Project description" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/03.jpg" title="Project description">
               <div class="hover-text">
-                <h4>Project Title</h4>
-                <p>Web Design</p>
+                <h4>LCOM</h4>
               </div>
               <img src="img/portfolio/03.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+        <div class="col-md-3 col-lg-3 lorem">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/04.jpg" title="Project description" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/04.jpg" title="Project description">
               <div class="hover-text">
-                <h4>Project Title</h4>
-                <p>Web Design</p>
+                <h4>CGRA</h4>
               </div>
               <img src="img/portfolio/04.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 consectetur">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/05.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <p>Web Development</p>
-              </div>
-              <img src="img/portfolio/05.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 dapibus">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/06.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <p>Branding</p>
+          <div class="row">
+          <div class="col-md-3 col-lg-3 lorem">
+              <div class="portfolio-item">
+                  <div class="hover-bg"> <a href="img/portfolio/01.jpg" title="Project description">
+                          <div class="hover-text">
+                              <h4>CAL</h4>
+                          </div>
+                          <img src="img/portfolio/01.jpg" class="img-responsive" alt="Project Title"> </a> </div>
               </div>
-              <img src="img/portfolio/06.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 dapibus consectetur">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/07.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <p>Web Development, Branding</p>
+          <div class="col-md-3 col-lg-3 consectetur">
+              <div class="portfolio-item">
+                  <div class="hover-bg"> <a href="img/portfolio/02.jpg" title="Project description">
+                          <div class="hover-text">
+                              <h4>LPOO 1</h4>
+                          </div>
+                          <img src="img/portfolio/02.jpg" class="img-responsive" alt="Project Title"> </a> </div>
               </div>
-              <img src="img/portfolio/07.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/08.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <p>Web Design</p>
+          <div class="col-md-3 col-lg-3 lorem">
+              <div class="portfolio-item">
+                  <div class="hover-bg"> <a href="img/portfolio/03.jpg" title="Project description">
+                          <div class="hover-text">
+                              <h4>LPOO 2</h4>
+                          </div>
+                          <img src="img/portfolio/03.jpg" class="img-responsive" alt="Project Title"> </a> </div>
               </div>
-              <img src="img/portfolio/08.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
-        </div>
+          <div class="col-md-3 col-lg-3 lorem">
+              <div class="portfolio-item">
+                  <div class="hover-bg"> <a href="img/portfolio/04.jpg" title="Project description">
+                          <div class="hover-text">
+                              <h4>LAIG</h4>
+                          </div>
+                          <img src="img/portfolio/04.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              </div>
+          </div>
+          </div>
+          <div class="row">
+          <div class="col-md-3 col-lg-3">
+              <div class="portfolio-item">
+                  <div class="hover-bg"> <a href="img/portfolio/08.jpg" title="Project description">
+                          <div class="hover-text">
+                              <h4>LTW</h4>
+                          </div>
+                          <img src="img/portfolio/08.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              </div>
+          </div>
+
+          <div class="col-md-3 col-lg-3">
+              <div class="portfolio-item">
+                  <div class="hover-bg">
+                      <a href="img/portfolio/08.jpg" title="Project description">
+                          <div class="hover-text">
+                              <h4>IART</h4>
+                          </div>
+                          <img src="img/portfolio/08.jpg" class="img-responsive" alt="Project Title"> </a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 col-lg-3">
+              <div class="portfolio-item">
+                  <div class="hover-bg"> <a href="img/portfolio/08.jpg" title="Project description">
+                          <div class="hover-text">
+                              <h4>LBAW</h4>
+                          </div>
+                          <img src="img/portfolio/08.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              </div>
+          </div>
+          </div>
+          </div>
       </div>
     </div>
   </div>
+
+
+
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-lg-12 mx-auto">
+                        <div class="modal-body text-center">
+                            <h2>Computers Lab (LCOM)</h2>
+                            <div class="topRow">
+                                <img class="img-fluid img-centered" src="img/LCOM2.png" alt="">
+                               <img class="img-fluid img-centered" src="img/LCOM1.png" alt="">
+                            </div>
+                            <div class="bottomRow">
+                                <img class="img-fluid img-centered" src="img/LCOM3.png" alt="">
+                                <img class="img-fluid img-centered" src="img/LCOM4.png" alt="">
+                            </div>
+                            <p> This project was developed for the Computers Lab course unit. The aim
+                                of this project was to develop low level software, using Minix as the
+                                operating system and C as the main programming language. We had to program
+                                all the PC's peripherals (mouse, keyboard, graphics card).
+                                <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Here</a> you can check a video of it working.
+                                <div class="info">
+                                <span class="bold">Technologies/languages used:</span> C, Assembly, Minix
+                                <br>
+                                <span class="bold">Date of development:</span> December 2015
+                                <br>
+                                <span class="bold">Developed with:</span> Eduardo Leite
+                                </div>
+                            </p>
+
+                            <button class="btn btn-success" type="button" data-dismiss="modal">
+                                <i class="fa fa-times"></i>
+                                Close</button>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
 </div>
+
 <!-- Team Section -->
 <!--<div id="team" class="text-center">
   <div class="container">
