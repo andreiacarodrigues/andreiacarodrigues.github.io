@@ -15,7 +15,7 @@
 @font-face {
     font-family: projectsFont;
     /*src: url(../fonts/fonts/GeosansLight.ttf);*/
-    src: url(../fonts/fonts/manaspc.ttf);
+    src: url(../fonts/fonts/CaviarDreams.ttf);
 }
 
 
@@ -244,6 +244,15 @@ hr {
         padding-top:30px;
         width:50%;
     }
+
+	.portfolio-modal .topRow img{
+		margin-top:45px;
+		margin-bottom:4px;
+	}
+
+	.portfolio-modal .bottomRow img{
+		margin-bottom:45px;
+	}
 }
 
 .btn-default {
@@ -613,19 +622,23 @@ ol.type li a:hover {
     border-style: solid;
     border-width: 1px;
     border-color: #8f8f8f;
+	border-radius: 5px;
     margin:1px;
     padding:3px;
+}
+
+.portfolio-modal h2{
+	margin-bottom: 2%;
 
 }
 
-.portfolio-modal .topRow img{
-       margin-top:45px;
-	margin-bottom:4px;
-}
-.portfolio-modal .bottomRow img{
-    margin-bottom:45px;
+.portfolio-modal .info{
+	font-size:16px;
 }
 
+.portfolio-modal .info span{
+	color: #ac83bd;
+}
 .modal-dialog{
 	overflow-y: initial !important
 }
@@ -634,6 +647,14 @@ ol.type li a:hover {
 	padding-bottom:80px;
 	height:700px;
 	overflow-y: auto;
+}
+
+.portfolio-modal {
+	overflow:   scroll;
+}
+.portfolio-modal::-webkit-scrollbar {
+	width: 0px;
+	background: transparent; /* make scrollbar transparent */
 }
 
 /* Team Section */
@@ -855,6 +876,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 		margin-left:5% !important;
 
 	}
+	.portfolio-modal h2{
+		font-size:26px !important;
+	}
+	.portfolio-modal img{
+		max-width:80% !important;
+	}
+
 }
 
 

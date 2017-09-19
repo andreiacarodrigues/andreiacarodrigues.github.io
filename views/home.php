@@ -320,7 +320,7 @@
                 <div class="row">
                     <div class="col-lg-12 mx-auto">
                         <div class="modal-body text-center">
-                            <h2>Computers Lab (LCOM)</h2>
+                            <h2>Computer Labs (LCOM)</h2>
                             <div class="topRow">
                                 <img class="img-fluid img-centered" src="img/LCOM2.png" alt="">
                                <img class="img-fluid img-centered" src="img/LCOM1.png" alt="">
@@ -329,7 +329,7 @@
                                 <img class="img-fluid img-centered" src="img/LCOM3.png" alt="">
                                 <img class="img-fluid img-centered" src="img/LCOM4.png" alt="">
                             </div>
-                            <p> This project was developed for the Computers Lab course unit. The aim
+                            <p> This project was developed for the Computer Labs course unit. The aim
                                 of this project was to develop low level software, using Minix as the
                                 operating system and C as the main programming language. We had to program
                                 all the PC's peripherals (mouse, keyboard, graphics card).
@@ -343,9 +343,8 @@
                                 </div>
                             </p>
 
-                            <button class="btn btn-success" type="button" data-dismiss="modal">
-                                <i class="fa fa-times"></i>
-                                Close</button>
+                            <button class="btn" type="button" data-dismiss="modal">
+                                <i class="fa fa-times"></i></button>
                         </div>
                     </div>
                 </div>
