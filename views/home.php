@@ -156,3 +156,135 @@
         </div>
     </div>
 </div>
+
+<!-- Contacts -->
+
+
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+    <div class="container">
+        <div class="section-title center">
+            <h2>[contacts]</h2>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-12">
+                <div class="contact-item"> <i class="fa fa-envelope-o fa-2x"></i>
+                    <p>andreiacarodrigues@gmail.com</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <form name="sentMessage" id="contactForm" novalidate>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+                    <p class="help-block text-danger"></p>
+                </div>
+                <div id="success"></div>
+                <button type="submit" class="btn btn-default">Send Message</button>
+            </form>
+            <div class="social">
+                <ul>
+                    <li><a href="https://www.facebook.com/andreiarodrigues139"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://github.com/andreiacarodrigues"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://gitlab.com/andreiacarodrigues"><i class="fa fa-gitlab"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/andreiacarodrigues/"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- END Contacts -->
+
+<!-- Projects
+<div id="projects">
+    <div class="container">
+        <div class="row">
+            <div class="section-title text-center">
+                <h2>[projects]</h2>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="row">
+                <h3>PROG</h3>
+            </div>
+            <div class="row">
+                <h3>AEDA</h3>
+            </div>
+            <div class="row">
+                <h3>LCOM</h3>
+            </div>
+            <div class="row">
+                <h3>CGRA</h3>
+            </div>
+            <div class="row">
+                <h3>CAL</h3>
+            </div>
+            <div class="row">
+                <h3>LPOO 1</h3>
+            </div>
+            <div class="row">
+                <h3>LPOO 2</h3>
+            </div>
+            <div class="row">
+                <h3>SOPE</h3>
+            </div>
+            <div class="row">
+                <h3>ESOF</h3>
+            </div>
+            <div class="row">
+                <h3>LAIG</h3>
+            </div>
+            <div class="row">
+                <h3>LTW</h3>
+            </div>
+            <div class="row">
+                <h3>PLOG</h3>
+            </div>
+            <div class="row">
+                <h3>RCOM</h3>
+            </div>
+            <div class="row">
+                <h3>COMP</h3>
+            </div>
+            <div class="row">
+                <h3>IART</h3>
+            </div>
+            <div class="row">
+                <h3>SDIS</h3>
+            </div>
+            <div class="row">
+                <h3>LBAW</h3>
+            </div>
+            <div class="row">
+                <h3>AIAD</h3>
+            </div>
+            <div class="row">
+                <h3>LDSO</h3>
+            </div>
+            <div class="row">
+                <h3>MFES</h3>
+            </div>
+            <div class="row">
+                <h3>SINF</h3>
+            </div>
+        </div>
+    </div>
+</div>-->
+
+

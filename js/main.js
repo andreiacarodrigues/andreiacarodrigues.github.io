@@ -4,22 +4,27 @@ function main() {
 (function () {
    'use strict';
 
-	// Hide .navbar first
-	$(".navbar").hide();
-	
-	// Fade in .navbar
+	// Hide .navbar bg first
+    $('.navbar-custom').css('background', 'transparent');
+
+	// Fade in .navbar bg
 	$(function () {
 		$(window).scroll(function () {
-            // set distance user needs to scroll before we fadeIn navbar
-			if ($(this).scrollTop() > 200) {
-				$('.navbar').fadeIn();
+            // set distance user needs to scroll before we fadeIn navbar bg
+			if ($(this).scrollTop() > 500) {
+				/*$('.navbar').fadeIn();*/
+                $('.navbar-custom').css('background', 'rgb(46, 46, 46)');
 			} else {
-				$('.navbar').fadeOut();
+                $('.navbar-custom').css('background', 'transparent');
+				/*$('.navbar').fadeOut();*/
 			}
 		});
-
-	
 	});
+
+    $('body').scrollspy({
+        target: '#navbar',
+        offset: 54
+    });
 
 	// Preloader */
 	  	$(window).load(function() {
@@ -88,8 +93,6 @@ function main() {
         });
 
     });
-	
-	
 
   // jQuery Parallax
   function initParallax() {

@@ -9,7 +9,7 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="res/fonts/font-awesome/css/font-awesome.css">
+    <script src="https://use.fontawesome.com/b84c6ee111.js"></script>
 
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css"  href="css/style.css">
