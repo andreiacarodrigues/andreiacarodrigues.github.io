@@ -4,9 +4,17 @@
         <canvas id="canvas"></canvas>
         <div class="main-title">
             <div id="intro-title" class="text-center">
-                <h1>andreia rodrigues</h1>
+                <h1> Andreia Rodrigues</h1>
                 <hr>
-                <h4> personal website </h4>
+                <h4> Master Degree in Informatics and Computing Engineering </h4>
+            </div>
+            <div class="social">
+                <ul>
+                    <li><a href="https://www.facebook.com/andreiarodrigues139"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://github.com/andreiacarodrigues"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://gitlab.com/andreiacarodrigues"><i class="fa fa-gitlab"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/andreiacarodrigues/"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
             </div>
             <div class="animate-arrow">
                 <img id="down-arrow" src="./res/img/down.png"/>
@@ -49,6 +57,73 @@
     </div>
 </div>
 <!-- END About -->
+
+<!-- Professional Interests -->
+
+<div id="interests">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-12 mx-auto">
+                <h2>[Professional Interests]</h2>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="interest-item">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-users fa-stack-1x text-primary"></i>
+                  </span>
+                            <h4>
+                                <strong>User Interface Planning and Development</strong>
+                            </h4>
+                            <p>Mockups, Consistent and Effective Design, Multiple Screen Resolutions, Acessibility, On-line Help and Communication With the User . . . </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="interest-item">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-firefox fa-stack-1x text-primary"></i>
+                  </span>
+                            <h4>
+                                <strong>Webite Development</strong>
+                            </h4>
+                            <p><strong>Some Technologies:</strong> HTML5, CSS, Bootstrap, PHP, Javascript, ASP.NET . . . </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="interest-item">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-android fa-stack-1x text-primary"></i>
+                  </span>
+                            <h4>
+                                <strong>Mobile Application Development</strong>
+                            </h4>
+                            <p><strong>Some Technologies:</strong> Native Android, Xamarin, Xamarin Forms . . . </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="interest-item">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-gamepad fa-stack-1x text-primary"></i>
+                  </span>
+                            <h4>
+                                <strong>Game Development</strong>
+                            </h4>
+                            <p><strong>Some Technologies:</strong> LibGDX, Unity3D . . . </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row (nested) -->
+            </div>
+            <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+    </div>
+</div>
+
+<!-- END Professional Interests -->
 
 <!-- Skills -->
 
@@ -157,10 +232,10 @@
     </div>
 </div>
 
-<!-- Contacts -->
+<!-- END Skills -->
 
+<!-- Contact -->
 
-<!-- Contact Section -->
 <div id="contact" class="text-center">
     <div class="container">
         <div class="section-title center">
@@ -168,8 +243,8 @@
         </div>
         <div class="col-md-8 col-md-offset-2">
             <div class="col-md-12">
-                <div class="contact-item"> <i class="fa fa-envelope-o fa-2x"></i>
-                    <p>andreiacarodrigues@gmail.com</p>
+                <div class="contact-item"> <!--<i class="fa fa-envelope-o fa-2x"></i>-->
+                    <h4>andreiacarodrigues@gmail.com</h4>
                 </div>
             </div>
             <div class="clearfix"></div>
