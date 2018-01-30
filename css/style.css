@@ -382,6 +382,12 @@ hr {
     }
 }
 
+@media (max-width: 760px) {
+    #about h2{
+        font-size: 35px;
+    }
+}
+
 #about #download{
     margin:60px 0;
 }
@@ -448,6 +454,12 @@ hr {
 }
 #interests p{
     color: #f0f0f0;
+}
+
+@media (max-width: 760px) {
+    #interests h2{
+        font-size: 35px;
+    }
 }
 
 /* END Professional Interests */
@@ -533,6 +545,12 @@ hr {
 
     #skills .list li{
         font-size:13px;
+    }
+}
+
+@media (max-width: 760px) {
+    #skills h2{
+        font-size: 35px;
     }
 }
 
@@ -676,6 +694,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #contact .social i.fa:hover {
     color: #feb7fc;
+}
+@media (max-width: 760px) {
+    #contact h2{
+        font-size: 35px;
+    }
 }
 
 /* END - Contact */
