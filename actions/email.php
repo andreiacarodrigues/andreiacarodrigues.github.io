@@ -66,7 +66,7 @@
         echo "Mailer Error: " . $mail->ErrorInfo;
     } else {
         echo "Message sent!";
-        header("Location: http://www.andreiacarodrigues.github.io"); /* Redirect browser */
+        header("Location: ../index.html"); /* Redirect browser */
         exit();
     }
 ?>

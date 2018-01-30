@@ -184,6 +184,12 @@ p{
     color: #fff;
 }
 
+@media (max-width: 760px) {
+    .navbar-custom{
+        background: rgba(255, 255, 255, 0.25);
+    }
+}
+
 /* END - Navigation */
 
 /* Introduction */
@@ -290,6 +296,17 @@ hr {
 }
 #introduction .social i.fa:hover {
     color: #feb7fc;
+}
+
+@media (max-width: 760px) {
+
+    #introduction #intro-title h1{
+        font-size: 80px;
+    }
+
+    #introduction #intro-title h4{
+        font-size: 15px;
+    }
 }
 
 /* END - Introduction - arrow animation */
