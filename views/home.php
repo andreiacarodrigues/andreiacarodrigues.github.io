@@ -52,7 +52,7 @@
         <div class="col-md-4">
             <div class="row">
                 <div id="about-img-container">
-                    <img id="about-img" src="./res/img/bg9.png"/>
+                    <img id="about-img" src="./res/img/pic.jpg"/>
                 </div>
             </div>
         </div>

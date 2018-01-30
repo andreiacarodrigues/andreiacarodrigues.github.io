@@ -106,7 +106,7 @@ p{
     left: 0;
     right: 0;
     bottom: 0;
-    background: #595959;
+    background: #dddddd;
     z-index: 99999;
     height: 100%;
 }
@@ -193,7 +193,7 @@ p{
     height: auto;
     text-align: center;
     color: #fff;
-    background: url(../res/img/bg9.png) no-repeat center center fixed;
+    background: url(../res/img/bg.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -314,17 +314,20 @@ hr {
 }
 
 #about #about-img-container:hover #about-img{
-    border-radius: 0px;
+    border-radius: 0;
 }
 
-#about-img-container #about-img{
+#about #about-img-container #about-img{
     width: 250px;
     height: 250px;
     border-radius: 125px;
-    background-image: url(../res/img/bg9.png);
-    background-position: center center;
     display:block;
     margin:auto;
+    padding: 5px;
+    background: -webkit-linear-gradient(transparent, #fb93e1);
+    background: -o-linear-gradient(transparent, #fb93e1);
+    background: -moz-linear-gradient(transparent, #fb93e1);
+    background: linear-gradient(transparent, #fb93e1);
 }
 
 @media (min-width: 780px) {
@@ -370,7 +373,7 @@ hr {
     width: 100%;
     min-height: 100%;
     padding: 30px 0;
-    background: url(../res/img/skills11.jpg) no-repeat center center fixed;
+    background: url(../res/img/skills.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -503,7 +506,7 @@ hr {
     padding-right: 0;
     padding-left: 0;
     padding-bottom: 0;
-    background: url(../res/img/bg9.png) no-repeat center center fixed;
+    background: url(../res/img/bg.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
