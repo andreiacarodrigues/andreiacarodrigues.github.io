@@ -17,3 +17,13 @@
 <script type="text/javascript" src="js/introduction.js"></script>
 </body>
 </html>
+
+
+<script>
+    function goToTop() {
+        if (window.scrollY>0) {
+            window.scrollTo(0,window.scrollY-20)
+            setTimeout("goToTop()",10)
+        }
+    }
+</script>

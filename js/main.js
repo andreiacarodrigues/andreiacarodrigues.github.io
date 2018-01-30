@@ -23,7 +23,7 @@ function main() {
 
     $('body').scrollspy({
         target: '#navbar',
-        offset: 54
+        offset: 80
     });
 
 	// Preloader */
@@ -61,11 +61,6 @@ function main() {
         }
     });
 
-    $('body').scrollspy({ 
-        target: '.navbar-default',
-        offset: 80
-    })
-
   	// Portfolio Isotope Filter
     $(window).load(function() {
         var $container = $('.portfolio-items');
@@ -94,15 +89,25 @@ function main() {
 
     });
 
-  // jQuery Parallax
-  function initParallax() {
-    $('#intro').parallax("100%", 0.3);
-    $('#services').parallax("100%", 0.3);
-    $('#aboutimg').parallax("100%", 0.3);	
-    $('#testimonials').parallax("100%", 0.1);
+    window.onscroll = function() {scrollFunction()};
 
-  }
-  initParallax();
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("top-btn").style.display = "block";
+        } else {
+            document.getElementById("top-btn").style.display = "none";
+        }
+    }
+
+    // jQuery Parallax
+    function initParallax() {
+        $('#intro').parallax("100%", 0.3);
+        $('#services').parallax("100%", 0.3);
+        $('#aboutimg').parallax("100%", 0.3);
+        $('#testimonials').parallax("100%", 0.1);
+
+    }
+    initParallax();
 
 }());
 
