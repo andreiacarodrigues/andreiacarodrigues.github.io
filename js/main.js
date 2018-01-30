@@ -35,7 +35,7 @@ function main() {
     	// will fade out the whole DIV that covers the website. 
     	$("#preloader").delay(500).fadeOut("slow").remove();      
 
-  	})
+  	});
 
    // Page scroll
   	$('a.page-scroll').click(function() {
@@ -99,18 +99,31 @@ function main() {
         }
     }
 
-    // jQuery Parallax
-    function initParallax() {
-        $('#intro').parallax("100%", 0.3);
-        $('#services').parallax("100%", 0.3);
-        $('#aboutimg').parallax("100%", 0.3);
-        $('#testimonials').parallax("100%", 0.1);
-
-    }
-    initParallax();
-
 }());
-
 
 }
 main();
+
+function email()
+{
+    var name = $('#contact #name').val();
+    var mail = $('#contact #email').val();
+    var message = $('#contact #message').val();
+
+    if(name == "" || email == "" || message == "")
+    {
+        alert("All fields are required to send an email.");
+        return;
+    }
+
+    $.ajax({
+        method: "POST",
+        url: "../actions/email.php",
+        data: { name: name, email: mail, message: message }
+    })
+        .done(function( msg ) {
+            if (msg == "ERROR") {
+                alert("Error while trying to send email.");
+            }
+        });
+}
