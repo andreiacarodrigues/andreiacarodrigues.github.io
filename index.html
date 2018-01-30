@@ -316,7 +316,7 @@
             <div class="clearfix"></div>
         </div>
         <div class="col-md-8 col-md-offset-2">
-            <form name="sentMessage" id="contactForm" novalidate onsubmit="event.preventDefault(); email();">
+            <form name="sentMessage" id="contactForm" novalidate onsubmit="event.preventDefault(); sendEmail();">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
@@ -372,7 +372,7 @@
             setTimeout("goToTop()",10);
         }
     }
-    function email()
+    function sendEmail()
     {
         var name = $('#contact #name').val();
         var mail = $('#contact #email').val();
@@ -381,7 +381,7 @@
         if(name == "" || email == "" || message == "")
         {
             alert("All fields are required to send an email.");
-            return;
+            return false;
         }
 
         $.ajax({
@@ -392,6 +392,7 @@
             .done(function( msg ) {
                 if (msg == "ERROR") {
                     alert("Error while trying to send email.");
+                    return true;
                 }
             });
     }
