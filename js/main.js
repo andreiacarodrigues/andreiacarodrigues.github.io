@@ -117,7 +117,7 @@ function sendEmail()
     }
 
     $.ajax({
-        method: "POST",
+        method: "GET",
         url: "actions/email.php",
         data: { name: name, email: mail, message: message }
     })
