@@ -49,9 +49,9 @@
     //$mail->msgHTML(file_get_contents('contents.html'), __DIR__);
     //Replace the plain text body with one created manually
     $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject ="Website Contact: " . $_GET['name'];
-    $mail->Body = '<b>Email: </b>' . $_GET['email'] . '<br><br><b>Message: </b>' . $_GET['message'];
-    $mail->AltBody = 'Email: ' . $_GET['email'] . '\n Message: ' . $_GET['message'];
+    $mail->Subject ="Website Contact: " . $_POST['name'];
+    $mail->Body = '<b>Email: </b>' . $_POST['email'] . '<br><br><b>Message: </b>' . $_POST['message'];
+    $mail->AltBody = 'Email: ' . $_POST['email'] . '\n Message: ' . $_POST['message'];
 
     $mail->SMTPOptions = array(
         'ssl' => array(
