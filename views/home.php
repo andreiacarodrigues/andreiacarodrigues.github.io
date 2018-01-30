@@ -34,26 +34,33 @@
                 <h2>[about]</h2>
             </div>
         </div>
-        <div class="col-md-8">
-            <div class="row">
-                <div id="about-text">
-                    <p>My name is Andreia Rodrigues, currently living in Porto, Portugal. I'm 21 years old and I'm attending the 4th year
-                        of the Master in Informatics and Computing Engineering at the Faculty of Engineering at the University of Porto
-                        where I currently hold an average grade of 16 in 20.</p>
-                    <p>Through the years I've learned about different fields of computer science, programming languages,
-                        software development and management. The ones that I like the most are user interface development, mobile development,
-                        frontend web development and computer graphics. </p>
-                    <p>Previously I studied at the Escola EB 2,3/S of Chamusca where I graduated from highschool with an average grade of 17 in 20.</p>
-                    <p>I'm fluent in portuguese and english.</p>
-                    <p>My favorite hobbies include going to the cinema, watching anime and playing videogames with my friends.</p>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div id="about-text">
+                        <p>My name is Andreia Rodrigues, currently living in Porto, Portugal. I'm 21 years old and I'm attending the 4th year
+                            of the Master in Informatics and Computing Engineering at the Faculty of Engineering at the University of Porto
+                            where I currently hold an average grade of 16 in 20.</p>
+                        <p>Through the years I've learned about different fields of computer science, programming languages,
+                            software development and management. The ones that I like the most are user interface development, mobile development,
+                            frontend web development and computer graphics. </p>
+                        <p>Previously I studied at the Escola EB 2,3/S of Chamusca where I graduated from highschool with an average grade of 17 in 20.</p>
+                        <p>I'm fluent in portuguese and english.</p>
+                        <p>My favorite hobbies include going to the cinema, watching anime and playing videogames with my friends.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div id="about-img-container">
+                        <img id="about-img" src="./res/img/pic.jpg"/>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="row">
-                <div id="about-img-container">
-                    <img id="about-img" src="./res/img/pic.jpg"/>
-                </div>
+        <div class="row text-center">
+            <div id="download">
+                <a href="res/downloads/CV.doc" download>DOWNLOAD CURRICULUM</a>
             </div>
         </div>
     </div>
