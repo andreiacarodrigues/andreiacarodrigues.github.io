@@ -252,17 +252,17 @@
             <div class="clearfix"></div>
         </div>
         <div class="col-md-8 col-md-offset-2">
-            <form name="sentMessage" id="contactForm" novalidate>
+            <form name="sentMessage" id="contactForm" novalidate action="actions/email.php">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                            <input name="name" type="text" id="name" class="form-control" placeholder="Name" required="required">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                            <input name="email" type="email" id="email" class="form-control" placeholder="Email" required="required">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
