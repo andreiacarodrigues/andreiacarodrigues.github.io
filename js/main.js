@@ -104,3 +104,27 @@ function main() {
 }
 main();
 
+function sendEmail()
+{
+    var name = $('#contact #name').val();
+    var mail = $('#contact #email').val();
+    var message = $('#contact #message').val();
+
+    if(name == "" || email == "" || message == "")
+    {
+        alert("All fields are required to send an email.");
+        return false;
+    }
+
+    $.ajax({
+        method: "POST",
+        url: "../actions/email.php",
+        data: { name: name, email: mail, message: message }
+    })
+        .done(function( msg ) {
+            if (msg == "ERROR") {
+                alert("Error while trying to send email.");
+                return true;
+            }
+        });
+}
