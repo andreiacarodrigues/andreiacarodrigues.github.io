@@ -394,7 +394,7 @@ nav{
 
 /* --------------------------------------- ABOUT ---------------------------------------  */
 
-.about {
+.about, .interests {
     position: relative;
     display: inline-block;
     vertical-align: middle;
@@ -486,7 +486,7 @@ nav{
     background: #c91329;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 767px) {
     .headings{
         display:none;
     }
@@ -522,4 +522,132 @@ nav{
         font-size: 12px;
         letter-spacing: 0.2em;
     }
+}
+
+.about .download{
+    display: block;
+    float:right;
+    margin-top:20px;
+}
+
+@media (max-width: 800px){
+    .about .download{
+        margin-top:30px;
+        margin-bottom:15px;
+    }
+}
+
+@media (max-width: 780px){
+    .about .download{
+        float: none;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+.about .download a{
+    font-family: 'Brandon-light', serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    background: rgba(159, 16, 35, 0.81);
+}
+
+.about .download a:hover, .about .download a:focus {
+    color: #ffffff;
+    background: rgba(104, 104, 103, 0.82);
+
+}
+
+.about .download a {
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+/* ---------------------------- INTERESTS ------------------------------ */
+
+.section{
+    min-height: 100%;
+}
+
+.text-primary {
+    color: rgb(245, 245, 245) !important;
+}
+
+.fa-stack-2x{
+    color: rgba(159, 16, 35, 0.8);
+}
+
+.interest-row{
+    padding-top:40px;
+    text-align: center;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.interest-row h4{
+    font-size: 18px;
+    margin-top:10px;
+    font-family: 'Brandon-light', serif;
+    text-transform: uppercase;
+    letter-spacing:1px;
+    color:white;
+}
+
+.interest-row p{
+    margin-top:20px;
+    font-size: 16px;
+    text-align: justify;
+    color: #e1e1e1;
+    font-family: 'Brandon-light', serif;
+}
+
+/* Introduction - arrow animation */
+
+@keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+
+.animate-arrow {
+    -webkit-animation: flickerAnimation 3s infinite;
+    -moz-animation: flickerAnimation 3s infinite;
+    -o-animation: flickerAnimation 3s infinite;
+    animation: flickerAnimation 3s infinite;
+
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.animate-arrow img{
+    width:50px;
+    margin-top: 50px;
+}
+
+.skills{
+    background: #777;
 }
