@@ -15,15 +15,15 @@ function onClick( page ) {
             }
             break;
         case "about":
-            if($('#about').is(":hidden"))
-            {
+          /*  if($('#about').is(":hidden"))
+            {*/
                 if($('#content').is(":hidden"))
                 {
                     $('#home').hide();
                     $('#content').show();
                 }
-                $('#about').show();
-            }
+              /*  $('#about').show();
+            }*/
             break;
         default:
             break;
