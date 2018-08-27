@@ -269,9 +269,13 @@ div.star { margin:40px; }
 }
 
 .social {
-    WIDTH: 90%;
+ 
     position: absolute;
-    bottom: 35px;
+    bottom:35px;
+
+    margin-right: auto;
+    left: 0;
+    right: 0;
     padding: 0;
     list-style-type: none;
     OVERFLOW: hidden;
