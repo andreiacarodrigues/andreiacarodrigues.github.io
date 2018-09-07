@@ -269,7 +269,6 @@ div.star { margin:40px; }
 }
 
 .social {
- 
     position: absolute;
     bottom:35px;
 
@@ -586,6 +585,17 @@ nav{
     padding-right:15px;
 }
 
+@media (max-width: 768px){
+    .interest-row{
+        padding-top:40px;
+        text-align: center;
+        padding-left:0;
+        padding-right:0;
+    }
+}
+
+
+
 .interest-row h4{
     font-size: 18px;
     margin-top:10px;
@@ -609,13 +619,14 @@ nav{
     font-family: 'Chronograph', serif;
     text-transform: uppercase;
     letter-spacing:1px;
+    text-align: left;
     color:#c91329;
 }
 
 .skills-list li{
     list-style: none;
     font-size: 17px;
-    text-align: justify;
+    text-align: left;
     color: #e1e1e1;
     padding:5px;
     font-family: 'Brandon-light', serif;
@@ -624,17 +635,24 @@ nav{
 .skills-list h3 i{
     font-size: 25px;
     padding-right:15px;
+    margin-top: 15px;
 }
 
-.skills-list li:before {
-    content: "🢒";
-    font-weight: bolder;
-    padding-right: 10px;
+.skills-list ul{
+    padding-left: 20px;
 }
 
-.skills-list li:before {
+@media (max-width: 400px){
+    .skills-list h3 i {
+        font-size: 20px;
+        padding-right: 10px;
+    }
+}
+
+.fa-li{
     color: #c91329;
 }
+
 /* Introduction - arrow animation */
 
 @keyframes flickerAnimation {
@@ -676,4 +694,13 @@ nav{
 
 .skills{
     background: #777;
+}
+
+.about, .interests{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.interest-item{
+    margin-top:15px;
 }
