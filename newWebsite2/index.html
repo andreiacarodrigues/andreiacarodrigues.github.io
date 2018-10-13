@@ -20,21 +20,22 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" onClick="onClick('home')">Home</a>
+                    <a class="nav-link page-scroll" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" onClick="onClick('about')">About</a>
+                    <a class="nav-link page-scroll"  href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Professional Interests</a>
+                    <a class="nav-link page-scroll"  href="#interests">Professional Interests</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Skills</a>
+                    <a class="nav-link page-scroll" href="#skills">Skills</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div id="home" style="height:90vh">
+    <button onclick="goToTop()" id="top-btn" title="Go to top"><i class="fa fa-caret-up"></i></button>
+    <div id="home" style="height:93vh">
         <div class="home" style="height:100%; width:100%">
             <div class="home-center-container container is-table">
                 <div class="table-cell">
@@ -92,7 +93,7 @@
                    </div>
                </div>
            </div>
-       </div>
+        </div>
     </div>
     <div id="interests" style="min-height:100vh">
         <div style="min-height:100vh; width:100%">
@@ -424,5 +425,12 @@
                 }).addClass(sizeClass).addClass(colorClass).addClass(pulseClass).appendTo($body);
             }
         });
+        function goToTop() {
+            if (window.scrollY>0) {
+                window.scrollTo(0,window.scrollY-20);
+                setTimeout("goToTop()",10);
+            }
+        }
     </script>
+
 </html>

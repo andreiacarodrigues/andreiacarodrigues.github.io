@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newWebsite2/css/myStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/newWebsite2/css/myStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newWebsite2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWebsite2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWebsite2/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/newWebsite2/js/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +22,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newWebsite2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="160" column="45" selection-start-line="160" selection-start-column="36" selection-end-line="160" selection-end-column="45" />
+            <state relative-caret-position="7378">
+              <caret line="434" selection-start-line="434" selection-end-line="434" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -37,16 +38,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="final.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newWebsite2/css/final.css">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/newWebsite2/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="33" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="myStyle.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oldWebsite/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6290">
+              <caret line="370" selection-start-line="370" selection-end-line="378" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oldWebsite/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1887">
+              <caret line="111" column="5" selection-start-line="103" selection-start-column="2" selection-end-line="111" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myStyle.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newWebsite2/css/myStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="637" column="20" selection-start-line="637" selection-start-column="20" selection-end-line="637" selection-end-column="20" />
+            <state relative-caret-position="646">
+              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="66" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oldWebsite/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="32" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -62,11 +94,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>canvas</find>
-      <find>aboutImgContainer</find>
-      <find>animate-arrow</find>
-      <find>aboutImg</find>
-      <find>nav</find>
       <find>contact-item</find>
       <find>bg</find>
       <find>Message body empty</find>
@@ -75,7 +102,6 @@
       <find>download</find>
       <find>animate</find>
       <find>headings</find>
-      <find>about</find>
       <find>canvas-holder</find>
       <find>height</find>
       <find>80%</find>
@@ -92,6 +118,12 @@
       <find>.skills-list li</find>
       <find>interest</find>
       <find>interest-item</find>
+      <find>#about</find>
+      <find>90vh</find>
+      <find>about</find>
+      <find>#top</find>
+      <find>top-b</find>
+      <find>ss-style-inczigzag</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -118,8 +150,10 @@
         <option value="$PROJECT_DIR$/newWebsite/index.html" />
         <option value="$PROJECT_DIR$/newWebsite/css/myStyle.css" />
         <option value="$PROJECT_DIR$/newWebsite2/css/final.css" />
-        <option value="$PROJECT_DIR$/newWebsite2/index.html" />
+        <option value="$PROJECT_DIR$/oldWebsite/js/main.js" />
         <option value="$PROJECT_DIR$/newWebsite2/css/myStyle.css" />
+        <option value="$PROJECT_DIR$/newWebsite2/js/index.js" />
+        <option value="$PROJECT_DIR$/newWebsite2/index.html" />
       </list>
     </option>
   </component>
@@ -135,7 +169,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -143,8 +177,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,11 +209,27 @@
               <item name="newWebsite2" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PersonalWebpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PersonalWebpage" type="462c0819:PsiDirectoryNode" />
+              <item name="oldWebsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PersonalWebpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PersonalWebpage" type="462c0819:PsiDirectoryNode" />
+              <item name="oldWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PersonalWebpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PersonalWebpage" type="462c0819:PsiDirectoryNode" />
+              <item name="oldWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,11 +348,13 @@
       <workItem from="1535203780933" duration="2445000" />
       <workItem from="1535212301892" duration="3356000" />
       <workItem from="1535376801650" duration="6314000" />
+      <workItem from="1536351282747" duration="5450000" />
+      <workItem from="1537019021164" duration="7000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137363000" />
+    <option name="totallyTimeSpent" value="142820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -348,20 +401,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/home.php" />
-    <entry file="file://$PROJECT_DIR$/index.php" />
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5253">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.php" />
-    <entry file="file://$PROJECT_DIR$/index.php" />
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/home.php" />
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/css/style.css">
@@ -451,10 +490,50 @@
     <entry file="file://$PROJECT_DIR$/newWebsite2/css/final.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/oldWebsite/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="111" column="5" selection-start-line="103" selection-start-column="2" selection-end-line="111" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newWebsite2/css/newStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5817" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newWebsite2/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2367">
+          <caret line="89" column="7" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oldWebsite/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newWebsite2/css/myStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="66" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oldWebsite/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6290">
+          <caret line="370" selection-start-line="370" selection-end-line="378" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/newWebsite2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="160" column="45" selection-start-line="160" selection-start-column="36" selection-end-line="160" selection-end-column="45" />
+        <state relative-caret-position="7378">
+          <caret line="434" selection-start-line="434" selection-end-line="434" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -468,10 +547,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newWebsite2/css/myStyle.css">
+    <entry file="file://$PROJECT_DIR$/newWebsite2/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="637" column="20" selection-start-line="637" selection-start-column="20" selection-end-line="637" selection-end-column="20" />
+        <state relative-caret-position="282">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
