@@ -44,14 +44,14 @@ Color codes:
     font-family: CopperHewitt;
     font-style: normal;
     font-weight: 500;
-    src: url(../assets/fonts/CooperHewitt-SemiBold.otf);
+    src: url(../assets/fonts/CooperHewitt-Semibold.otf);
 }
 
 @font-face {
     font-family: CopperHewitt;
     font-style: italic;
     font-weight: 500;
-    src: url(../assets/fonts/CooperHewitt-SemiBoldItalic.otf);
+    src: url(../assets/fonts/CooperHewitt-SemiboldItalic.otf);
 }
 
 /* -- Light */
@@ -533,6 +533,7 @@ footer {
 }
 
 .about .container h2, .contact .container h2, .certification .container h2, .services .container h2, .partnership h2 {
+    font-family: CopperHewitt;
     font-size: 38px;
     font-weight: 500;
     text-transform: uppercase;
