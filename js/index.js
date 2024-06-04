@@ -3,7 +3,7 @@ function toggleMenu() {
     menu.classList.toggle('active');
 }
 
-let items = document.querySelectorAll('.services .carousel .carousel-item')
+let items = document.querySelectorAll('#servicesCarousel.carousel .carousel-item')
 
 		items.forEach((el) => {
 			const minPerSlide = 4
