@@ -1,10 +1,18 @@
+const loading = document.querySelector('#loading');
+const loaded = document.querySelector('#loaded');
+loaded.classList.add('noShow');
+
+window.addEventListener("load", () => {
+    loading.classList.add('noShow');
+    loaded.classList.remove('noShow');
+});
+
 function toggleMenu() {
     const menu = document.querySelector('nav .menu');
     menu.classList.toggle('active');
 }
 
-let items = document.querySelectorAll('#servicesCarousel.carousel .carousel-item')
-
+let items = document.querySelectorAll('#servicesCarousel.carousel .carousel-item');
 		items.forEach((el) => {
 			const minPerSlide = 4
 			let next = el.nextElementSibling
@@ -17,4 +25,4 @@ let items = document.querySelectorAll('#servicesCarousel.carousel .carousel-item
         el.appendChild(cloneChild.children[0])
         next = next.nextElementSibling
     }
-})
+});

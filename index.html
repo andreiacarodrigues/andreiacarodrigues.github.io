@@ -3,346 +3,354 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
-    <meta name="description" content="A brief description of the page's content">
-    <meta name="author" content="Your Name">
+    <title>Aby Thomas</title>
+    <meta name="description" content="Aby Thomas - Prestação de Serviços Agrícolas e Outros">
     <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <a href="#">
-                    <img src="./assets/logos/aby-logo-small.png" alt="logo" class="logo" />
-                </a>
-            </div>
-            <div class="hamburger" onclick="toggleMenu()">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#quem-somos">Quem Somos</a></li>
-                    <li><a href="#certificacao">Certificação</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#parceria">Parceria</a></li>
-                    <li><a href="#contacto">Contactos</a></li>
-                </ul>   
-            </div>
-           
-        </nav>
-    </header>
-    <div class="landing">
-        <div class="content">
-            <div class="column-1">
-            </div>
-            <div class="column-2">
-                <div class="column-2-content">
-                    <div class="banner">
-                        <h1>ABY THOMAS</h1>
-                        <h3>Prestação de Serviços Agrícolas</h3>
-                        <h6>e outros</h6>
-                    </div>
-                    <div class="banner-button">
-                        <a href="#orcamento"><span>Peça o seu orçamento agora</span></a>
-                        <a href="#orcamento" class="banner-button-icon"><img width="15px" src="./assets/icons/chevron-right-solid.svg" alt="Orçamento"/></a>
-                    </div>
-                </div>
-            </div>
+    <div id="loading" class="justify-content-center align-items-center">
+        <div class="spinner-border text-success" role="status">
+            <span class="visually-hidden">Loading...</span>
         </div>
+        <p>Carregando...</p>
     </div>
-    <div id="quem-somos" class="about">
-        <div class="outer-container">
-            <div class="container">
-                <div class="row introduction">
-                    <div class="col-md-12 introduction-container">
-                        <h2> Quem Somos </h2>
-                        <div class="divisory"></div>
-                        <p> Somos uma empresa de prestação de serviços, criada em 2019, com sede em Santarém mas que desenvolve a sua actividade em todo o território nacional. </p>
-                    </div>
+    <div id="loaded">
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="#">
+                        <img src="./assets/logos/aby-logo-small.png" alt="logo" class="logo" />
+                    </a>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6 about-carousel">
-                        <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                            </div>
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner">
-                                <div class="carousel-item active" data-bs-interval="5000">
-                                <img src="./assets/photos/1.jpg">
-                                </div>
-                        
-                                <div class="carousel-item" data-bs-interval="5000">
-                                <img src="./assets/photos/2.jpg">
-                                </div>
-                            
-                                <div class="carousel-item" data-bs-interval="5000">
-                                <img src="./assets/photos/3.jpg">
-                                </div>
-        
-                                <div class="carousel-item" data-bs-interval="5000">
-                                    <img src="./assets/photos/4.jpg">
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                              </button>
-                              <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                              </button>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#quem-somos">Quem Somos</a></li>
+                        <li><a href="#certificacao">Certificação</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#parceria">Parceria</a></li>
+                        <li><a href="#contacto">Contactos</a></li>
+                    </ul>   
+                </div>
+               
+            </nav>
+        </header>
+        <div class="landing">
+            <div class="content">
+                <div class="column-1">
+                </div>
+                <div class="column-2">
+                    <div class="column-2-content">
+                        <div class="banner">
+                            <h1>ABY THOMAS</h1>
+                            <h3>Prestação de Serviços Agrícolas</h3>
+                            <h6>e outros</h6>
+                        </div>
+                        <div class="banner-button">
+                            <a href="#orcamento"><span>Peça o seu orçamento agora</span></a>
+                            <a href="#orcamento" class="banner-button-icon"><img width="15px" src="./assets/icons/chevron-right-solid.svg" alt="Orçamento"/></a>
                         </div>
                     </div>
-                    <div class="col-lg-6 about-culture">
-                        <h2> Cultura Empresarial </h2>
-                        <div class="divisory"></div>
-                        <p>
-                            Trabalhamos de mão dadas com os produtores e empresas agrícolas suprindo necessidades de mão de obra pontuais ou para atividades especificas.
-                        </p>
-                        <p>
-                            Organização, flexibilidade, liderança e equipas motivadas, fazem parte na nossa cultura empresarial.
-                        </p>
-                        <p>
-                            A hierarquia empresarial e a progressão na carreira permitem-nos reter pessoas que nos dão a garantia de boa colaboração entre todos os elementos da empresa, facilidade de comunicação e transmissão dos nossos princípios.
-                        </p>
-                        <p>
-                            Cumprimos e fazemos cumprir as Boas Práticas Sociais procurando criar ambientes saudáveis e participativos.
-                        </p>
-                        <p>
-                            Temos como objetivo garantir a confiança dos nossos clientes, estabelecendo parcerias de futuro.
-                        </p>
-                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="orcamento" class="budget">
-        <div class="custom-shape-divider-top">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-            </svg>
-        </div>
-        <div class="container">
-            <div class="row budget-contact">
-                <h2> Informações / pedidos de orçamento </h2>
-                <div class="divisory"></div>
-                <p> <img height="20px" src="./assets/icons/phone-solid.svg" alt="Telefone de Contacto"/><a href="tel:243325122"> 243325122 </a> </p>
-                <p> <img height="20px" src="./assets/icons/envelope-solid.svg" alt="Email de Contacto"/><a href="mailto:abythomas119@gmail.com"> abythomas119@gmail.com</a> </p>
-            </div>
-        </div>
-        <div class="custom-shape-divider-bottom">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-            </svg>
-        </div>
-    </div>
-    <div id="certificacao" class="certification">
-        <div class="outer-container">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 grasp-logo">
-                        <img src="./assets/logos/grasp-logo.png"/>
-                    </div>
-                    <div class="col-md-9 grasp-text">
-                        <div class="certification-title">
-                            <h2> Certificação </h2>
+        <div id="quem-somos" class="about">
+            <div class="outer-container">
+                <div class="container">
+                    <div class="row introduction">
+                        <div class="col-md-12 introduction-container">
+                            <h2> Quem Somos </h2>
                             <div class="divisory"></div>
+                            <p> Somos uma empresa de prestação de serviços, criada em 2019, com sede em Santarém mas que desenvolve a sua actividade em todo o território nacional. </p>
                         </div>
-                        <p> Somos uma empresa verificada no âmbito do GRASP desde 2020, com 100% de cumprimento. </p>
-                        <p> Em 2024 confirmámos este cumprimento já na versão 2, estando em condições de fornecer relatório que facilitará a certificação dos nossos clientes, sem custos adicionais nem necessidade de mais documentação durante a sua própria certificação. </p>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="servicos" class="services">
-        <div class="custom-shape-divider-top">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-            </svg>
-        </div>
-        <div class="outer-container">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h2> Serviços </h2>
-                        <div class="divisory"></div>
-                        <p> Temos desenvolvido serviços de plantações, mondas, podas, colheitas, embalamento de produtos hortícolas e frutícolas, em ar livre ou estufa. </p>
-                        <p> Kiwi, courgette, beringela, alho francês, pimento, melão, melancia, batata doce, mirtilo, morango, amendoeiras, nogueiras, vinha, brócolo, couves, pêras, maçãs, pêssegos, ameixas e tantas outras, são culturas em que temos trabalhado ao longo dos anos mas estamos sempre prontos para novos desafios. </p>
-                       
-                    </div>
-                </div>
-                        <div class="row mx-auto my-auto justify-content-center">
-                            <div id="servicesCarousel" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner" role="listbox">
-                                    <div class="carousel-item active">
-                                        <div class="col-sm-3">
-                                            <div class="card">
-                                                <div class="card-img">
-                                                    <img src="./assets/photos/IMG-20240309-WA0009.jpg" class="img-fluid">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-sm-3">
-                                            <div class="card">
-                                                <div class="card-img">
-                                                    <img src="./assets/photos/277723302_516092623473979_1925421847728269528_n1.jpg" class="img-fluid">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-sm-3">
-                                            <div class="card">
-                                                <div class="card-img">
-                                                    <img src="./assets/photos/430974639_1108576307078186_6722171864474013727_n1.jpg" class="img-fluid">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="col-sm-3">
-                                            <div class="card">
-                                                <div class="card-img">
-                                                    <img src="./assets/photos/288233006_565324045217503_3221594364532652216_n.jpg" class="img-fluid">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev bg-transparent w-aut" href="#servicesCarousel" role="button" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                </a>
-                                <a class="carousel-control-next bg-transparent w-aut" href="#servicesCarousel" role="button" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                </a>
-                            </div>
-                            <div id="servicesCarousel-mobile" class="carousel slide" data-bs-ride="carousel">
+                    <div class="row">
+                        <div class="col-lg-6 about-carousel">
+                            <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#servicesCarousel-mobile" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#servicesCarousel-mobile" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#servicesCarousel-mobile" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                    <button type="button" data-bs-target="#servicesCarousel-mobile" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
                                 </div>
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="carousel-item active" data-bs-interval="5000">
-                                    <img src="./assets/photos/IMG-20240309-WA0009.jpg">
+                                    <img src="./assets/photos/1.jpg">
                                     </div>
                             
                                     <div class="carousel-item" data-bs-interval="5000">
-                                    <img src="./assets/photos/277723302_516092623473979_1925421847728269528_n1.jpg">
+                                    <img src="./assets/photos/2.jpg">
                                     </div>
                                 
                                     <div class="carousel-item" data-bs-interval="5000">
-                                    <img src="./assets/photos/430974639_1108576307078186_6722171864474013727_n1.jpg">
+                                    <img src="./assets/photos/3.jpg">
                                     </div>
             
                                     <div class="carousel-item" data-bs-interval="5000">
-                                        <img src="./assets/photos/288233006_565324045217503_3221594364532652216_n.jpg">
+                                        <img src="./assets/photos/4.jpg">
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#servicesCarousel-mobile" data-bs-slide="prev">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
                                   </button>
-                                  <button class="carousel-control-next" type="button" data-bs-target="#servicesCarousel-mobile" data-bs-slide="next">
+                                  <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Next</span>
                                   </button>
                             </div>
-                        </div>		
-                <div class="row">
-                    <div class="col-sm-12">
-                        <p> Dispomos de viaturas de 9 a 55 lugares para deslocar as nossas equipas e 2 agrónomas para garantir que os trabalhos se desenvolvem de acordo com o solicitado e atempadamente, com equipas ajustadas á necessidade dos nossos clientes. </p>
+                        </div>
+                        <div class="col-lg-6 about-culture">
+                            <h2> Cultura Empresarial </h2>
+                            <div class="divisory"></div>
+                            <p>
+                                Trabalhamos de mão dadas com os produtores e empresas agrícolas suprindo necessidades de mão de obra pontuais ou para atividades especificas.
+                            </p>
+                            <p>
+                                Organização, flexibilidade, liderança e equipas motivadas, fazem parte na nossa cultura empresarial.
+                            </p>
+                            <p>
+                                A hierarquia empresarial e a progressão na carreira permitem-nos reter pessoas que nos dão a garantia de boa colaboração entre todos os elementos da empresa, facilidade de comunicação e transmissão dos nossos princípios.
+                            </p>
+                            <p>
+                                Cumprimos e fazemos cumprir as Boas Práticas Sociais procurando criar ambientes saudáveis e participativos.
+                            </p>
+                            <p>
+                                Temos como objetivo garantir a confiança dos nossos clientes, estabelecendo parcerias de futuro.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-           
         </div>
-        <div class="custom-shape-divider-bottom">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-            </svg>
+        <div id="orcamento" class="budget">
+            <div class="custom-shape-divider-top">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="container">
+                <div class="row budget-contact">
+                    <h2> Informações / pedidos de orçamento </h2>
+                    <div class="divisory"></div>
+                    <p> <img height="20px" src="./assets/icons/phone-solid.svg" alt="Telefone de Contacto"/><a href="tel:243325122"> 243325122 </a> </p>
+                    <p> <img height="20px" src="./assets/icons/envelope-solid.svg" alt="Email de Contacto"/><a href="mailto:abythomas119@gmail.com"> abythomas119@gmail.com</a> </p>
+                    <p> <img height="20px" src="./assets/icons/facebook.svg" alt="Facebook de Contacto"/><a href="https://www.facebook.com/aby.thomas.144"> facebook.com/aby.thomas.144</a> </p>
+                </div>
+            </div>
+            <div class="custom-shape-divider-bottom">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+            </div>
         </div>
-    </div>
-    <div id="parceria" class="partnership">
-        <div class="outer-container">
+        <div id="certificacao" class="certification">
+            <div class="outer-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 grasp-logo">
+                            <img src="./assets/logos/grasp-logo.png"/>
+                        </div>
+                        <div class="col-md-9 grasp-text">
+                            <div class="certification-title">
+                                <h2> Certificação </h2>
+                                <div class="divisory"></div>
+                            </div>
+                            <p> Somos uma empresa verificada no âmbito do GRASP desde 2020, com 100% de cumprimento. </p>
+                            <p> Em 2024 confirmámos este cumprimento já na versão 2, estando em condições de fornecer relatório que facilitará a certificação dos nossos clientes, sem custos adicionais nem necessidade de mais documentação durante a sua própria certificação. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="servicos" class="services">
+            <div class="custom-shape-divider-top">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="outer-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2> Serviços </h2>
+                            <div class="divisory"></div>
+                            <p> Temos desenvolvido serviços de plantações, mondas, podas, colheitas, embalamento de produtos hortícolas e frutícolas, em ar livre ou estufa. </p>
+                            <p> Kiwi, courgette, beringela, alho francês, pimento, melão, melancia, batata doce, mirtilo, morango, amendoeiras, nogueiras, vinha, brócolo, couves, pêras, maçãs, pêssegos, ameixas e tantas outras, são culturas em que temos trabalhado ao longo dos anos mas estamos sempre prontos para novos desafios. </p>
+                           
+                        </div>
+                    </div>
+                            <div class="row mx-auto my-auto justify-content-center">
+                                <div id="servicesCarousel" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="carousel-item active">
+                                            <div class="col-sm-3">
+                                                <div class="card">
+                                                    <div class="card-img">
+                                                        <img src="./assets/photos/IMG-20240309-WA0009.jpg" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="col-sm-3">
+                                                <div class="card">
+                                                    <div class="card-img">
+                                                        <img src="./assets/photos/277723302_516092623473979_1925421847728269528_n1.jpg" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="col-sm-3">
+                                                <div class="card">
+                                                    <div class="card-img">
+                                                        <img src="./assets/photos/430974639_1108576307078186_6722171864474013727_n1.jpg" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="col-sm-3">
+                                                <div class="card">
+                                                    <div class="card-img">
+                                                        <img src="./assets/photos/288233006_565324045217503_3221594364532652216_n.jpg" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev bg-transparent w-aut" href="#servicesCarousel" role="button" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    </a>
+                                    <a class="carousel-control-next bg-transparent w-aut" href="#servicesCarousel" role="button" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    </a>
+                                </div>
+                                <div id="servicesCarousel-mobile" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#servicesCarousel-mobile" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#servicesCarousel-mobile" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#servicesCarousel-mobile" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#servicesCarousel-mobile" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                    </div>
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="5000">
+                                        <img src="./assets/photos/IMG-20240309-WA0009.jpg">
+                                        </div>
+                                
+                                        <div class="carousel-item" data-bs-interval="5000">
+                                        <img src="./assets/photos/277723302_516092623473979_1925421847728269528_n1.jpg">
+                                        </div>
+                                    
+                                        <div class="carousel-item" data-bs-interval="5000">
+                                        <img src="./assets/photos/430974639_1108576307078186_6722171864474013727_n1.jpg">
+                                        </div>
+                
+                                        <div class="carousel-item" data-bs-interval="5000">
+                                            <img src="./assets/photos/288233006_565324045217503_3221594364532652216_n.jpg">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#servicesCarousel-mobile" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                      </button>
+                                      <button class="carousel-control-next" type="button" data-bs-target="#servicesCarousel-mobile" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                      </button>
+                                </div>
+                            </div>		
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p> Dispomos de viaturas de 9 a 55 lugares para deslocar as nossas equipas e 2 agrónomas para garantir que os trabalhos se desenvolvem de acordo com o solicitado e atempadamente, com equipas ajustadas á necessidade dos nossos clientes. </p>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="custom-shape-divider-bottom">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+        <div id="parceria" class="partnership">
+            <div class="outer-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 partnership-text">
+                            <div class="certification-title">
+                                <h2> Parceria </h2>
+                                <div class="divisory"></div>
+                            </div>
+                            <p> Estabelecemos parcerias a nível da assistência técnica e certificação GlobalG.A.P e GRASP, caso pretenda tratar de tudo num só local. </p>
+                        </div>
+                        <div class="col-md-3 partnership-logo">
+                            <img src="./assets/logos/cristina-logo.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contacto" class="contact">
+            <div class="custom-shape-divider-top">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="outer-container">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-9 partnership-text">
-                        <div class="certification-title">
-                            <h2> Parceria </h2>
-                            <div class="divisory"></div>
+                    <div class="col-md-12">
+                        <h2> Contactos </h2>
+                        <div class="divisory"></div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3090.337362100787!2d-8.70130772345451!3d39.23521277165396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd18ef0050b73bd3%3A0xd0265fffb8e95fd7!2sAby%20Thomas%20sociedade%20unipessoal%20LDA!5e0!3m2!1spt-PT!2spt!4v1716552617420!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-md-6 item-1">
+                            <h4> Informações / pedidos de orçamento </h4>
+                            <p> <img height="20px" src="./assets/icons/phone-solid.svg" alt="Telefone de Contacto"/><a href="tel:243325122"> 243325122 </a> </p>
+                            <p> <img height="20px" src="./assets/icons/envelope-solid.svg" alt="Email de Contacto"/><a href="mailto:abythomas119@gmail.com"> abythomas119@gmail.com</a> </p>
+                            <p> <img height="20px" src="./assets/icons/facebook.svg" alt="Facebook de Contacto"/><a href="https://www.facebook.com/aby.thomas.144"> facebook.com/aby.thomas.144</a> </p>
                         </div>
-                        <p> Estabelecemos parcerias a nível da assistência técnica e certificação GlobalG.A.P e GRASP, caso pretenda tratar de tudo num só local. </p>
-                    </div>
-                    <div class="col-md-3 partnership-logo">
-                        <img src="./assets/logos/cristina-logo.png"/>
-                    </div>
+                        <div class="col-md-6 item-2">
+                            <h4> Localização </h4>
+                            <p> Av. Marquês de Pombal 66B </p>
+                            <p> 2005-170 </p>
+                            <p> Santarém </p>
+                        </div>
+                    
                 </div>
             </div>
         </div>
-    </div>
-    <div id="contacto" class="contact">
-        <div class="custom-shape-divider-top">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-            </svg>
         </div>
-        <div class="outer-container">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2> Contactos </h2>
-                    <div class="divisory"></div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3090.337362100787!2d-8.70130772345451!3d39.23521277165396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd18ef0050b73bd3%3A0xd0265fffb8e95fd7!2sAby%20Thomas%20sociedade%20unipessoal%20LDA!5e0!3m2!1spt-PT!2spt!4v1716552617420!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-            <div class="row">
-                    <div class="col-md-6 item-1">
-                        <h4> Informações / pedidos de orçamento </h4>
-                        <p> <img height="20px" src="./assets/icons/phone-solid.svg" alt="Telefone de Contacto"/><a href="tel:243325122"> 243325122 </a> </p>
-                        <p> <img height="20px" src="./assets/icons/envelope-solid.svg" alt="Email de Contacto"/><a href="mailto:abythomas119@gmail.com"> abythomas119@gmail.com</a> </p>
-                    </div>
-                    <div class="col-md-6 item-2">
-                        <h4> Localização </h4>
-                        <p> Av. Marquês de Pombal 66B </p>
-                        <p> 2005-170 </p>
-                        <p> Santarém </p>
-                    </div>
-                
-            </div>
-        </div>
+        <footer>
+            <p> Copyright © 2024 Aby Thomas</p>
+        </footer>
     </div>
-    </div>
-    <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
-    </footer>
     <script src="./js/index.js"></script>
     <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
         ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "beta"});</script>
