@@ -329,13 +329,6 @@ nav .logo img {
     }
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-}
-
 .landing {
     position: relative;
     min-height: calc(100% - 112px);
@@ -986,4 +979,51 @@ footer {
 
 #loading.noShow, #loaded.noShow {
     display:none;
+}
+
+footer {
+    background-color: #607f24;
+    color: white;
+}
+
+footer ul {
+    padding: 0;
+}
+footer li {
+   list-style: none;
+   margin-bottom: 5px;
+}
+
+footer .row:first-child {
+    padding-bottom: 3rem;
+}
+
+footer .row:last-child {
+    padding-top: 2rem;
+    border-top:#d6ffe966 1px solid;
+    text-align: end;
+}
+
+footer h4 {
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    padding-bottom: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer a, footer p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    padding-bottom: 15px;
+    color: white;
+    text-decoration: none;
+    margin:0;
+}
+
+footer a > img {
+    filter: invert(99%) sepia(0%) saturate(7497%) hue-rotate(196deg) brightness(101%) contrast(101%);
 }
